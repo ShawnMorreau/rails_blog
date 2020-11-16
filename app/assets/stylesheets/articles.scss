@@ -780,6 +780,11 @@ input[type="submit"]:focus,
 input[type="submit"]:focus:visited {
   color: #fff;
 }
+.image{
+  width: 250px;
+  height: auto;
+  object-fit: contain;
+}
 input[type="submit"]:active {
   background-color: #0f3f6e;
   background-image: -webkit-gradient(
